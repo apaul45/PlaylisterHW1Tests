@@ -64,7 +64,7 @@ describe('Edit Song Tests', () => {
   
     it('should edit and undo/redo correctly', () => {
         cy.get(editModalConfirmButtonId).click();
-        cy.get('#edit-song-dialog').should('not.be.visible');
+        cy.get(editModalId).should('not.be.visible');
     
         //Foolproof Check
         cy.get(addListButtonId).should('have.class', 'disabled');
