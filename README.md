@@ -4,10 +4,12 @@ Follow the steps below to get Cypress up running and working with your url/eleme
 
 1. Start up your playlister application, and keep note of the url. Make sure it doesn't contain your html file in it.
 2. Go to the **cypress.config.js** file, and change the **baseUrl** to yours.<br/>
-3. Go to **cypress/e2e**, click on any one of the files. In it you should find a bunch of variables, each representing a specific id. Change all of these to the ids you set in your code. <br/>
-4. Copy paste all those variables in the other 3 files, replacing the existing ones.<br/>
-5. Run **npm install** <br/>
-6. Run **npx cypress open**<br/>. This should spin up the Cypress application. Once open, select the "E2E Testing" option, and choose Firefox as the browser.
+3. Go to **cypress/e2e**, click on any one of the files. In it you should find a bunch of variables, each representing a specific id. Change all of these to the ids you set in your code. <br/> 
+- Note: **Don't delete the '#' from each variable**. This is needed to identify the html element associated with the id.<br/>
+4. Copy paste all those variables into the other 3 files, replacing the existing ones.<br/>
+5. Run **npm install** in the tests directory. <br/>
+6. Run **npx cypress open** in the tests directory.<br/>
+- This should spin up the Cypress application. Once open, select the "E2E Testing" option, and choose Firefox as the browser.
 
 If you have successfully completed the steps above, you should now be seeing this in the Cypress application:
 
