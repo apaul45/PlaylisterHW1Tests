@@ -1,10 +1,10 @@
 const addListButtonId = '#' + 'add-list-button';
 
 const playlistCardsId = '#' + 'playlist-cards';
-const playlistCard1Id = '#' + 'playlist-card-1';
+const playlistCard1Id = '#' + 'playlist-card-1'; //For the first song card in a playlist
 const toolbarId = '#' + 'edit-toolbar';
 
-const deleteSong0ButtonId = '#' + 'delete-song-0';
+const deleteSong0ButtonId = '#' + 'delete-song-0'; //For the delete button within the first song card in a playlist
 const deleteModalId = '#' + "delete-song-modal";
 const deleteSongButtonId = '#' + 'delete-song-button';
 const deleteSongConfirmButtonId =  '#' +'delete-song-confirm-button';
