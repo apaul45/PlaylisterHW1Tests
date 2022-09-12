@@ -1,26 +1,13 @@
-const addListButtonId = '#' + 'add-list-button';
-
-const playlistCardsId = '#' + 'playlist-cards';
-const playlistCard1Id = '#' + 'playlist-card-1'; //For the first song card in a playlist
-const toolbarId = '#' + 'edit-toolbar';
-
-const deleteSong0ButtonId = '#' + 'delete-song-0'; //For the delete button within the first song card in a playlist
-const deleteModalId = '#' + "delete-song-modal";
-const deleteSongButtonId = '#' + 'delete-song-button';
-const deleteSongConfirmButtonId =  '#' +'delete-song-confirm-button';
-const deleteSongCancelButtonId = '#' + 'delete-song-cancel-button';
-
-const addSongButtonId = '#' + 'add-song-button';
-const undoButtonId = '#' + 'undo-button';
-const redoButtonId = '#' + 'redo-button';
-const closeButtonId = '#' + 'close-button';
-
-const editModalId = '#' + "edit-song-dialog";
-const editTitleInputId = '#' + "edit-song-title";
-const editArtistInputId ='#' +  "edit-song-artist";
-const editYtInputId = '#' + "edit-yt-id";
-const editModalConfirmButtonId = '#' + 'edit-song-confirm-button';
-const editModalCancelButtonId = '#' + 'edit-song-cancel-button';
+import {
+    toolbarId, 
+    addListButtonId, 
+    addSongButtonId, 
+    playlistCard1Id,
+    playlistCardsId, 
+    undoButtonId, 
+    redoButtonId
+} 
+from './empty.cy';
 
 beforeEach(() =>{
     cy.visit('/')
