@@ -2,7 +2,7 @@
 
 Follow the steps below to get Cypress up running and working with your url/element ids.
 
-1. Start up your playlister application, and keep note of the url. Make sure it doesn't contain your html file in it.
+1. Start up your playlister application, and keep note of the url.
 2. Go to the **cypress.config.js** file, and change the **baseUrl** to yours.<br/>
 3. Go to **cypress/e2e/empty.cy.js**. In it you should find a bunch of variables, each representing a specific id. Change all of these to the ids you set in your code. <br/> 
 - Note: **Don't delete the '#' from each variable**. This is needed to identify the html element associated with the id.<br/>
