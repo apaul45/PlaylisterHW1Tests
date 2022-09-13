@@ -6,7 +6,7 @@ Follow the steps below to get Cypress up running and working with your url/eleme
 2. Go to the **cypress.config.js** file, and change the **baseUrl** to yours.<br/>
 3. Go to **cypress/e2e/empty.cy.js**. In it you should find a bunch of variables, each representing a specific id. Change all of these to the ids you set in your code. <br/> 
 - Note: **Don't delete the '#' from each variable**. This is needed to identify the html element associated with the id.<br/>
-4. Run **npm install** in the tests directory. (Download **Node.js** before doing this if it isn't already installed** <br/>
+4. Run **npm install** in the tests directory. (Download **Node.js** before doing this if it isn't already installed) <br/>
 5. Run **npx cypress open** in the tests directory.<br/>
 - This should spin up the Cypress application. Once open, select the "E2E Testing" option, and choose Firefox as the browser.
 
